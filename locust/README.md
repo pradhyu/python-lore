@@ -29,3 +29,7 @@ locust -f locust/custom_load.py
 locust -f locust/double_wave.py
 
 ```
+
+
+# useful documenents
+https://github.com/myzhan/boomer
