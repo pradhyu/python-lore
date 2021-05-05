@@ -1,5 +1,9 @@
 # Using locust for http testing
 
+# install vim plugin manager 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 ## start simple http server
 
 ```bash
@@ -35,3 +39,7 @@ locust -f locust/double_wave.py
 https://github.com/myzhan/boomer
 
 # find the way to extend the UI
+
+
+# custom extensions
+https://github.com/karol-brejna-i/locust-experiments
